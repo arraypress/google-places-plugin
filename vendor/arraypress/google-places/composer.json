@@ -1,0 +1,46 @@
+{
+  "name": "arraypress/google-places",
+  "version": "1.0.0",
+  "description": "A PHP library for integrating with the Google Places API in WordPress, providing geocoding, place details, business information, and location data. Features comprehensive response handling and WordPress transient caching.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/google-places/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\Google\\Places\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable",
+  "support": {
+    "issues": "https://github.com/arraypress/google-places/issues",
+    "source": "https://github.com/arraypress/google-places"
+  },
+  "keywords": [
+    "google-places",
+    "geocoding",
+    "place-details",
+    "business-information",
+    "location-data",
+    "wordpress",
+    "maps-integration",
+    "address-validation",
+    "place-search",
+    "business-hours",
+    "place-reviews",
+    "location-services"
+  ]
+}

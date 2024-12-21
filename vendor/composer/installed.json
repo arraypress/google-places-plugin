@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "name": "arraypress/google-places",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arraypress/google-places.git",
+                "reference": "0746b3f19893445a6b134cb09df962b3a87b3689"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arraypress/google-places/zipball/0746b3f19893445a6b134cb09df962b3a87b3689",
+                "reference": "0746b3f19893445a6b134cb09df962b3a87b3689",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2024-12-21T18:21:56+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ArrayPress\\Google\\Places\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "David Sherlock",
+                    "homepage": "https://arraypress.com/"
+                }
+            ],
+            "description": "A PHP library for integrating with the Google Places API in WordPress, providing geocoding, place details, business information, and location data. Features comprehensive response handling and WordPress transient caching.",
+            "homepage": "https://github.com/arraypress/google-places/",
+            "keywords": [
+                "address-validation",
+                "business-hours",
+                "business-information",
+                "geocoding",
+                "google-places",
+                "location-data",
+                "location-services",
+                "maps-integration",
+                "place-details",
+                "place-reviews",
+                "place-search",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/arraypress/google-places/issues",
+                "source": "https://github.com/arraypress/google-places"
+            },
+            "install-path": "../arraypress/google-places"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
