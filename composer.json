@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "arraypress/google-places": "^1.0.0"
+    "arraypress/google-places": "^1.0"
   },
   "minimum-stability": "stable"
 }
