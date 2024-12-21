@@ -1,0 +1,232 @@
+/* Main container styles */
+.places-api-test {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.places-test-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 2rem;
+    margin: 1.5rem 0;
+}
+
+/* Section styles */
+.places-test-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.places-test-section h3 {
+    margin-top: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+/* Form styles */
+.places-form {
+    margin-top: 1rem;
+}
+
+.places-form .form-table {
+    margin-top: 0;
+}
+
+.places-form .form-table th {
+    width: 150px;
+    padding: 15px 10px;
+}
+
+.places-form input[type="text"],
+.places-form input[type="number"],
+.places-form select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.places-form select[multiple] {
+    height: auto;
+    min-height: 100px;
+}
+
+/* Results section */
+.api-results {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    display: none;
+}
+
+.api-results.show {
+    display: block;
+}
+
+.api-results pre {
+    margin: 0;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+/* Loading indicator */
+.loading-indicator {
+    display: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.loading-indicator.show {
+    display: block;
+}
+
+/* Error messages */
+.error-message {
+    color: #d63638;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    background: #fcf0f1;
+    border-left: 4px solid #d63638;
+}
+
+/* Success messages */
+.success-message {
+    color: #00a32a;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    background: #edfaef;
+    border-left: 4px solid #00a32a;
+}
+
+/* Place item styles */
+.place-item {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.place-item h4 {
+    margin: 0 0 0.5rem 0;
+}
+
+.place-item p {
+    margin: 0.25rem 0;
+    color: #666;
+}
+
+.place-item .place-rating {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: #fff8e5;
+    border-radius: 3px;
+    color: #915700;
+    font-weight: 500;
+}
+
+/* Responsive design */
+@media screen and (max-width: 782px) {
+    .places-test-container {
+        grid-template-columns: 1fr;
+    }
+
+    .places-form .form-table th {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .places-form input[type="text"],
+    .places-form input[type="number"],
+    .places-form select {
+        max-width: 100%;
+    }
+}
+
+/* Button groups */
+.button-group {
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Parameter toggles */
+.parameter-toggles {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f0f6fc;
+    border-radius: 4px;
+}
+
+.parameter-toggle {
+    margin-right: 1rem;
+}
+
+/* Results navigation */
+.results-nav {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results-nav button {
+    min-width: 80px;
+}
+
+.results-count {
+    color: #666;
+}
+
+/* Field selection */
+.field-selection {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.field-group {
+    margin-bottom: 1rem;
+}
+
+.field-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Cache info */
+.cache-info {
+    margin: 1rem 0;
+    padding: 0.75rem;
+    background: #e5f5fa;
+    border-left: 4px solid #00a0d2;
+    color: #1a4b63;
+}
+
+/* Photo preview */
+.photo-preview {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.photo-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "arraypress/google-places-plugin",
+  "description": "Demonstration WordPress plugin showing Google Maps Places API library integration",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "arraypress/google-places": "^1.0.0"
+  },
+  "minimum-stability": "stable"
+}
